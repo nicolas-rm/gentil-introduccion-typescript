@@ -96,3 +96,5 @@ console.log(OPCIONES);
 console.log(mensaje);
 */
 /* VIDEO 6 */
+/* ----------------- CODIGO 1 ----------------- */
+/* PLATICA DE LAS DIFERENCIAS ENTRE JS, ECM6 , TS */
