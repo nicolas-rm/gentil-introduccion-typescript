@@ -51,7 +51,7 @@ let getSalario = (empleado, callback) => {
     });
 
     if (!salarioDB) {
-        callback(`NO EXISTE SALARIO CON EL ID: ${empleado.nombre}`);
+        callback(`NO EXISTE SALARIO PARA: ${empleado.nombre}`);
     } else {
         callback(null, {
             nombre: empleado.nombre,
